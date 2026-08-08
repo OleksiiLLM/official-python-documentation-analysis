@@ -1,3 +1,7 @@
-site_name: My Analysis of Python Documentation
+site_name: "Python Documentation by Use-Case: Making it Simple"
 theme:
   name: material
+nav:
+  - Home: index.md
+  - Data Cleaning: data-cleaning.md
+  - Testing MkDocs and Markdown: testing-mkdocs-and-markdown.md
