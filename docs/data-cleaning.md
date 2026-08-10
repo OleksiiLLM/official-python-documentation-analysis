@@ -146,3 +146,43 @@ Return a copy of the string with uppercase characters converted to lowercase and
 ### Example
     >>> 'Hello World'.swapcase()
         'hELLO wORLD'
+### String Classification
+[str.isprintable()](https://docs.python.org/3/library/stdtypes.html#str.isprintable)
+
+Return True if all characters in the string are printable, False if it contains at least one non-printable character.
+
+The printable characters are those which in the Unicode character database. [unicodedata](https://docs.python.org/3/library/unicodedata.html#module-unicodedata)
+### Example
+    >>> ''.isprintable(), ' '.isprintable()
+    (True, True)
+    >>> '\t'.isprintable(), '\n'.isprintable()
+    (False, False)
+***
+[str.isspace()](https://docs.python.org/3/library/stdtypes.html#str.isspace)
+
+Return True of there are only whitespace characters in the string and there is at least one character, False otherwise.
+
+### Example 
+    >>> ''.isspace()
+    False
+    >>> ' '.isspace()
+    True
+    >>>'\t\n'.isspace()
+    True
+    >>> '\u3000'.isspace()
+    True
+[str.istitle()](https://docs.python.org/3/library/stdtypes.html#str.istitle)
+
+[str.isupper()](https://docs.python.org/3/library/stdtypes.html#str.isupper)
+
+[str.islower()](https://docs.python.org/3/library/stdtypes.html#str.islower)
+
+[str.isidentifier()](https://docs.python.org/3/library/stdtypes.html#str.isidentifier)
+
+Return True if the string is a valid identifier according to the language definition
+
+### Example 
+    >>> 'hello'.isidentifier()
+    True
+    >>> 'def'.isidentifier()
+    True

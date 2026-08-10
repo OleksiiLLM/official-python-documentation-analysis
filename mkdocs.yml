@@ -4,4 +4,5 @@ theme:
 nav:
   - Home: index.md
   - Data Cleaning: data-cleaning.md
+  - Language Reference: language-reference.md
   - Testing MkDocs and Markdown: testing-mkdocs-and-markdown.md
