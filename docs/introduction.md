@@ -1,6 +1,6 @@
 ## Introduction
 
-This **[reference manual]**(an informational document designed for looking up specific details about a product, tool, or system rather than for reading straight through. . It gives expert users fast access to exact facts like commands, parameters, functions, and system rules.) describes the Python programming language. It is not intended as a tutorial.
+This **[reference manual](/docs/reference-manual.md)** describes the Python programming language. It is not intended as a tutorial.
 
 While I am trying to be as precise as possible, I chose to use English rather than formal [specifications](is a clear, detailed list of rules, sizes, materials, or requirements for making or doing something) for everything except **syntax**(Syntax in computer programming means the rules that control the structure of the symbols, punctuation, and words of a programming language. Without syntax, the meaning or semantics of a language is nearly impossible to understand.) and [lexical analysis](lexical analysis, or scanning, is a fundamental step in NLP. In programming languages, this process involves the lexical analyzer (lexer or scanner) reading the source code character by character to group these characters into tokens, the smallest units in the code that convey meaning).
 

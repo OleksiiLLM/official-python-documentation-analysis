@@ -7,3 +7,7 @@ nav:
   - Language Reference: language-reference.md
   - Testing MkDocs and Markdown: testing-mkdocs-and-markdown.md
   - Reference Manual: reference-manual.md
+  - Introduction: introduction.md
+  - Specification: specification.md
+  - Syntax: syntax.md
+  - Lexical Analysis: lexical-analysis.md
