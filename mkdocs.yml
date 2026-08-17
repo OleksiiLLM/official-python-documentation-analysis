@@ -18,3 +18,4 @@ nav:
   - Syntax: syntax.md
   - Lexical Analysis: lexical-analysis.md
   - Testing Mermaid: testing_mermaid.md
+  - Testing backticks: testing_backticks.md
