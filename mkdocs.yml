@@ -1,6 +1,12 @@
 site_name: "Python Documentation by Use-Case: Making it Simple"
 theme:
   name: material
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
   - Data Cleaning: data-cleaning.md
@@ -11,3 +17,4 @@ nav:
   - Specification: specification.md
   - Syntax: syntax.md
   - Lexical Analysis: lexical-analysis.md
+  - Testing Mermaid: testing_mermaid.md

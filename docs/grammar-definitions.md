@@ -2,6 +2,8 @@
 
 In the context of Python, **Grammar Definitions** are the formal, mathematical formulas that map out exactly how valid Python code can be constructed.
 
+**Grammar Definition**is a summary of production rules.
+
 Think of it like sentence diagramming in an advanced English class. While normal people just speak the language, a grammar definition breaks a sentence down into a strict mathematical equation: _Sentence = Subject + Verb + Object_.
 
 If you browse the official Python Language Reference, you will occasionally see blocks of text that look like a completely different language, filled with colons, quotes, and asterisks. That is Python's grammar definition (historically written in a format called BNF, and more recently PEG).

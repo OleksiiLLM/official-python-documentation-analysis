@@ -1,0 +1,5 @@
+In the context of Python, an **implementation** is the actual, working software engine that reads your .py files and makes your computer execute them.
+
+Think of the Python language as the official rules of basketball (the **Specification**). You cannot literally play a game with just a rulebook. An **Implemenatation** is the actual physical basketball court, the hoop, and the ball. You can build a court out of hardwood, asphalt, or concrete - they are different implementations built from different materials, but you play the exact same game on all of them.
+
+Ultimately, **"Python"** is just an abstract idea and a set of strict grammatical rules. The **Implementation** is the tangible software installed on your machine that actually breathes life into your text and turns it into a running application.
