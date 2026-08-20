@@ -9,13 +9,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - Data Cleaning: data-cleaning.md
-  - Language Reference: language-reference.md
-  - Testing MkDocs and Markdown: testing-mkdocs-and-markdown.md
-  - Reference Manual: reference-manual.md
   - Introduction: introduction.md
-  - Specification: specification.md
-  - Syntax: syntax.md
-  - Lexical Analysis: lexical-analysis.md
-  - Testing Mermaid: testing_mermaid.md
-  - Testing backticks: testing_backticks.md
+  - Syntax and Semantics: syntax-and-semantics.md
+  - Python Engine: python-engine.md

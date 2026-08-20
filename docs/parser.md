@@ -1,5 +1,16 @@
 # Parser
 
-In the context of Python, a **Parser** is the internal component of the interpreter that takes the chopped-up pieces of your code (tokens) and checks if they fit together properly according to the strict grammatical rules of the language.
+**_Parser_** is a component of Python engine.
 
-Ultimately, the parser acts as Python's strict grammar police. It ensures that the individual "words" of your code are legally arranged into structural sentences that the rest of the machine can understand and execute.
+Parser performs a task of taking as an input tokens, provided by lexical analyzer, and check syntactically if they relevant to the Python structural and spelling rules.
+
+After taking as an input tokens from lexical analyzer, parser provides an output in form of logicall structure, represented in a hierarchical map called an Abstract Syntax Tree, an AST for short.
+
+```mermaid
+    graph LR
+    A[Python Code] -- Lexical Analyzer --> B[Tokens]
+    B[Tokens] -- Parser --> C[AST]
+```
+
+So, Parser interacting with tokens as an input, provides an output in the logical form called an Abstract Syntax Tree, for short AST.
+
